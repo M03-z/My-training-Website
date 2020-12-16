@@ -1,3 +1,7 @@
+var Adblock = prompt("Please Disable your adblocker and write adblocker to confirm", "write adblocker to confirm");
+if (Adblock !== adblocker) {
+Adblock= prompt('Select again.');}
+
 
 var name = prompt("Please enter your name", "Name");
 alert("Welcome to our website "+name)
