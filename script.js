@@ -1,9 +1,10 @@
-var Adblock = prompt("Please Disable your adblocker and write adblocker to confirm", "write adblocker to confirm");
+var Adblock = prompt("Please Disable your adblocker and write adblocker to confirm", "adblocker");
 if (Adblock !== adblocker) {
 Adblock= prompt('Select again.');}
 
 
-var name = prompt("Please enter your name", "Name");
+
+/*var name = prompt("Please enter your name", "Name");
 alert("Welcome to our website "+name)
 
 var today= new Date();
@@ -19,3 +20,4 @@ else {
 greeting = 'Welcome!'}
 
 alert(greeting);
+*/
