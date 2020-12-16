@@ -1,11 +1,11 @@
-/* var Adblock = prompt("Please Disable your adblocker and write adblocker to confirm", "adblocker");
+var Adblock = prompt("Please Disable your adblocker and write adblocker to confirm", "adblocker");
 if (Adblock !== adblocker) {
 Adblock= prompt('Write again');}
 else if (Adblock === adblocker) {
 console.log('New user choice: ' + userChoice);}
 
 var name = prompt("Please enter your name", "Name");
-alert("Welcome to our website "+name) */
+alert("Welcome to our website "+name) 
 
 var BgImg = prompt('enter a number');
   BgImg = parseInt(BgImg);
