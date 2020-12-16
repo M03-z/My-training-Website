@@ -2,11 +2,12 @@ var Adblock = prompt("Please Disable your adblocker and write adblocker to confi
 if (Adblock !== adblocker) {
 Adblock= prompt('Write again');}
 else if (Adblock === adblocker) {
-    console.log('New user choice: ' + userChoice);}
+console.log('New user choice: ' + userChoice);}
 
-/*var name = prompt("Please enter your name", "Name");
+var name = prompt("Please enter your name", "Name");
 alert("Welcome to our website "+name)
 
+/*
 var today= new Date();
 var hourNow = today.getHours();
 var greeting;
@@ -19,5 +20,4 @@ greeting = 'Good morning!'}
 else {
 greeting = 'Welcome!'}
 
-alert(greeting);
-*/
+alert(greeting);*/
